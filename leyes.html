@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cachorro lúcido</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/superfish.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/slider.js"></script>
+<link href="css/simple-sidebar.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script>
+$(function(){
+	function equalHeight(group) {
+		var tallest = 0;
+		group.each(function() {
+			var thisHeight = $(this).height();
+			if(thisHeight > tallest) {
+				tallest = thisHeight;
+			}
+		});
+		group.height(tallest);
+	}	
+	equalHeight($(".box-1 .inner"));
+})
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css"> 
+<![endif]-->
+</head>
+<body id="page3">
+<!-- Header -->
+<header>
+  <div class="inner">
+    <h1 class="logo"><a href="index.html">Click aqui´ ;)</a></h1>
+    <div class="fright">
+      <div class="header-meta">
+        <div class="col-elem"> Los animales merecen respeto<br/>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu">
+          <li class="current"><a href="index.html">Página Principal</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+          <li> <a href="Contenido.html">Contenido</a>
+            <ul>
+              <li><a href="leyes.html">Leyes</a></li>
+              <li><a href="entrevistas.html">Casos de interés (entrevistas)</a></li>
+              <li> <a href="cuidados.html">Cuidados</a>
+                <ul>
+                  <li><a href="recomendaciones.html">Recomendaciones sobre salud</a></li>
+                  <li><a href="bienestar.html">¿Cómo puedo contribuir al bienestar animal?</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="clear"></div>
+  </div>
+</header>
+<!-- Content -->
+
+<!--Lateral nav XD
+<div class="container">
+  <div class="col-sm-2">
+    <nav class="nav-sidebar">
+    <ul class="nav tabs">
+          <li class="active"><a href="#tab1" data-toggle="tab">Lorem ipsum</a></li>
+          <li class="active"><a href="#tab2" data-toggle="tab">Dolor asit amet</a></li>
+          <li class="active"><a href="#tab3" data-toggle="tab">Stet clita</a></li>                               
+    </ul>
+  </nav>
+    <div><h2 class="add">Place for your add!</h2></div>
+</div>
+<!-- tab content 
+<div class="tab-content">
+<div class="tab-pane active text-style" id="tab1">
+  <h2>Lorem ipsum</h2>
+       <p>Artículo X  
+       </p>
+       <hr>
+      <img src="http://placehold.it/350x250" class="img-rounded pull-right">   
+</div>
+<div class="tab-pane text-style" id="tab2">
+  <h2>Dolor asit amet</h2>
+   <p>Articulo Y.</p>
+    <hr>
+          <img src="http://placehold.it/150x90" class="img-rounded pull-left">
+</div>
+<div class="tab-pane text-style" id="tab3">
+  <h2>Stet clita</h2>
+  <p>Articulo Z,</p>
+    <hr>
+    <div class="col-xs-6 col-md-3">
+      <img src="http://placehold.it/150x150" class="img-rounded pull-right">
+  </div>
+</div>
+</div>
+     <!--script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#tab-content").addClass("active");
+    });
+    </script-->
+
+<!--/div-->
+<div class="container">
+<div class="col-sm-2">
+
+<h2>Artículos</h2>
+  <ul class="nav nav-sidebar">
+    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+    <li><a data-toggle="tab" href="#Artículo1">Menu 1</a></li>
+    <li><a data-toggle="tab" href="#Artículo2">Menu 2</a></li>
+    <li><a data-toggle="tab" href="#Artículo3">Menu 3</a></li>
+  </ul>
+
+</div>
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Aquí puedes consultar los artículos relacionasdos al bienestar animal en el Estado de Chihuahua</p>
+    </div>
+    <div id="Artículo1" class="tab-pane fade">
+      <h3>Artículo 1</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div id="Artículo2" class="tab-pane fade">
+      <h3>Artículo 2</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="Artículo3" class="tab-pane fade">
+      <h3>Artículo 3</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+</div>
+<!-- Footer -->
+<footer>
+  <div>Website Template by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+  </div>
+</footer>
+</body>
+</html>
