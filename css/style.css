@@ -1,4 +1,4 @@
-@import url(reset.css);
+    @import url(reset.css);
 @import url(grid.css);
 @import url(forms.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
@@ -510,6 +510,7 @@ header .inner {
 	height:20px;
 	background:url(../images/slider-pagination.png) no-repeat 0 0;
 }
+
 /********************** Navigation ************************/
 nav {
 	text-align:right;
@@ -537,7 +538,7 @@ nav {
 .sf-menu > li {
 	position:relative;
 	display:inline-block;
-	margin:0 41px;
+	margin:0 41px;    
 }
 .sf-menu > li > a {
 	text-decoration:none;
@@ -545,8 +546,6 @@ nav {
 	font-family: 'Open Sans', sans-serif;
 	font-size:18px;
 	line-height:22px;
-	text-transform:lowercase;
-	text-decoration:underline;
 	color:#c4c4c4;
 	padding:0;
 	text-shadow:1px 1px #fbfbfb;
@@ -554,6 +553,7 @@ nav {
 .sf-menu > li.current > a, .sf-menu > li:hover > a, .sf-menu > li.sfHover > a {
 	color:#454545;
 	text-decoration:none;
+    
 }
 .sf-menu li:hover ul, .sf-menu li.sfHover ul {
 	top:35px;
@@ -576,7 +576,6 @@ nav {
 	color:#454545;
 	overflow:hidden;
 	padding:8px 5px 8px 5px;
-	text-transform:lowercase;
 	font-family: 'Open Sans', sans-serif;
 }
 .sf-menu li li > a:hover, .sf-menu li li.sfHover > a, .sf-menu li li.current > a {
