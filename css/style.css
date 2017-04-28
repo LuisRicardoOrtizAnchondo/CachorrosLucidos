@@ -600,6 +600,20 @@ section#content {
 	z-index:1;
 	padding:0 0 18px 0;
 }
+section.llamative{
+	font-size: 30px;
+	line-height:30px
+}
+section.llamative p{
+	color:orange;
+	padding: 3%;
+}
+section.llamative h2{
+	color:blue;
+}
+section.llamative h3{
+	padding: 1%;
+}
 .author {
 	color:#454545;
 	font-size:14px;
