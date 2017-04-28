@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Cachorro lúcido</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/superfish.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tms-0.4.1.js"></script>
+<script src="js/slider.js"></script>
+<script>
+$(function(){
+	function equalHeight(group) {
+		var tallest = 0;
+		group.each(function() {
+			var thisHeight = $(this).height();
+			if(thisHeight > tallest) {
+				tallest = thisHeight;
+			}
+		});
+		group.height(tallest);
+	}	
+	equalHeight($(".box-1 .inner"));
+})
+</script>
+<!--[if lt IE 9]>
+<script src="js/html5.js"></script>
+<link rel="stylesheet" href="css/ie.css"> 
+<![endif]-->
+</head>
+<body id="page3">
+<!-- Header -->
+<header>
+  <div class="inner">
+    <h1 class="logo"><a href="index.html">Click aqui´ ;)</a></h1>
+    <div class="fright">
+      <div class="header-meta">
+        <!--
+        <form action="#" id="search-form" method="post">
+          <input type="text" onBlur="if(this.value==''){this.value='search'}" onFocus="if(this.value=='search'){this.value=''}" value="search" name="search">
+          <a class="search-form-submit"></a>
+        </form>
+        -->
+        <div class="col-elem"> Los animales merecen respeto<br/>
+        </div>
+      </div>
+      <nav>
+        <ul class="sf-menu">
+          <li class="current"><a href="index.html">Página Principal</a></li>
+          <li><a href="about.html">Acerca de</a></li>
+          <li> <a>Contenido</a>
+            <ul>
+              <li><a href="leyes.html">Leyes</a></li>
+              <li><a href="casos.html">Casos de interés (entrevistas)</a></li>
+              <li> <a>Cuidados</a>
+                <ul>
+                  <li><a href="recomendaciones.html">Cuidados básicos</a></li>
+                  <li><a href="contribuir.html">¿Cómo puedo contribuir al bienestar animal?</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="links.html">Enlaces</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Content -->
+<section id="content" class="llamative">
+  <p><strong>1. Haz la diferencia:</strong> Puedes contribuir al bienestar desde lo más básico, siendo tú mismo un dueño responsable que esteriliza, identifica, vacuna y desparasita a su perro, y que jamás lo abandonaría.
+  </p>
+  <p><strong>2. Sé voluntario: </strong> En toda América Latina hay albergues de perros y organizaciones de rescate y bienestar animal, que están excedidas en su carga de trabajo. Búscalas, de seguro que tu trabajo voluntario les será necesario. Solo asegúrate de que sea un albergue responsable y que cuente con todos los permisos necesarios.
+  </p>
+  <p><strong>3. Dona</strong> Muchas organizaciones, como Protección Animal Mundial, realizan un trabajo importante educando a comunidades y gobiernos en el manejo de la población canina y las condiciones necesarias para que los perros vivan bien. En sus sitios web, puedes donar para que sigan adelante con esta labor.
+  </p>
+  <p><strong>4. Informa a tus allegados</strong> Háblales sobre cómo hacer de este un mundo mejor para los animales domésticos y sobre las leyes que hay en Chihuahua para dichos efectos (puedes mostrarles ésta página),
+  </p>
+
+</section>
+<!-- Footer -->
+<footer>
+  <div>Website Template by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+  </div>
+</footer>
+</body>
+</html>
