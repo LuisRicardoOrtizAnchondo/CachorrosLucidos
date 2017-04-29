@@ -1,4 +1,4 @@
-    @import url(reset.css);
+@import url(reset.css);
 @import url(grid.css);
 @import url(forms.css);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,400italic);
@@ -64,6 +64,12 @@ html {
 .wrapper {
 	overflow:hidden;
 	position:relative;
+}
+.wrapper2 {
+    padding: 10px 10px;
+	overflow:hidden;
+	position:relative;
+    
 }
 .extra-wrap {
 	overflow:hidden;
@@ -286,11 +292,16 @@ h2 span {
 	float:left;
 	margin:0 10px 12px 0;
 }
+.img-indent-2 {
+	float:right;
+	margin:0 10px 0 0;
+}
 .img-indent-bot {
 	margin:0 0 14px 0;
 }
 p {
 	padding-bottom:18px;
+    text-align: justify;
 }
 .p {
 	padding-bottom:18px;
@@ -434,7 +445,7 @@ header .inner {
 .logo a {
 	position:relative;
 	background: url(../images/logo.png) no-repeat 0 0;
-	height:141px;
+	height:150px;
 	width:151px;
 	overflow:hidden;
 	text-indent:-99em;
@@ -593,27 +604,13 @@ nav {
 	left:181px;
 	top:-10px;
 }
+
 /********************** Content ************************/
 
 section#content {
 	position:relative;
 	z-index:1;
 	padding:0 0 18px 0;
-}
-section.llamative{
-	font-size: 30px;
-	line-height:30px
-}
-section.llamative p{
-	color:#436eb2;
-	padding: 3%;
-}
-section.llamative h2{
-	color:#436eb2;
-	padding: 2%;
-}
-section.llamative h3{
-	padding: 1%;
 }
 .author {
 	color:#454545;
@@ -673,7 +670,6 @@ footer {
 	font-size:12px;
 	padding:35px 0;
 	overflow:hidden;
-	Display:none
 }
 footer a {
 	color:#a7a7a7;
