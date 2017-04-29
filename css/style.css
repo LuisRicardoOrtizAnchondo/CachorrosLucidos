@@ -705,3 +705,6 @@ footer a {
 .social-list li a:hover img {
 	opacity:0.5;
 }
+video{
+	padding:20px;
+}
