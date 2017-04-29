@@ -11,17 +11,17 @@
 <script src="js/slider.js"></script>
 <script>
 $(function(){
-	function equalHeight(group) {
-		var tallest = 0;
-		group.each(function() {
-			var thisHeight = $(this).height();
-			if(thisHeight > tallest) {
-				tallest = thisHeight;
-			}
-		});
-		group.height(tallest);
-	}	
-	equalHeight($(".box-1 .inner"));
+  function equalHeight(group) {
+    var tallest = 0;
+    group.each(function() {
+      var thisHeight = $(this).height();
+      if(thisHeight > tallest) {
+        tallest = thisHeight;
+      }
+    });
+    group.height(tallest);
+  } 
+  equalHeight($(".box-1 .inner"));
 })
 </script>
 <!--[if lt IE 9]>
@@ -29,12 +29,13 @@ $(function(){
 <link rel="stylesheet" href="css/ie.css"> 
 <![endif]-->
 </head>
-<body id="page3">
+<body id="page1">
 <!-- Header -->
 <header>
   <div class="inner">
-    <h1 class="logo"><a href="index.html">Click aqui´ ;)</a></h1>
-    <div class="fright">
+    
+    <a href="index.html"><img src="images/logo.png" style="padding:10px;"></a>
+      <div class="fright">
       <div class="header-meta">
         <!--
         <form action="#" id="search-form" method="post">
@@ -49,11 +50,11 @@ $(function(){
         <ul class="sf-menu">
           <li class="current"><a href="index.html">Página Principal</a></li>
           <li><a href="about.html">Acerca de</a></li>
-          <li> <a>Contenido</a>
+          <li> <a href="Contenido.html">Contenido</a>
             <ul>
               <li><a href="leyes.html">Leyes</a></li>
               <li><a href="casos.html">Casos de interés (entrevistas)</a></li>
-              <li> <a>Cuidados</a>
+              <li> <a href="cuidados">Cuidados</a>
                 <ul>
                   <li><a href="recomendaciones.html">Cuidados básicos</a></li>
                   <li><a href="contribuir.html">¿Cómo puedo contribuir al bienestar animal?</a></li>
@@ -67,25 +68,166 @@ $(function(){
     </div>
     <div class="clear"></div>
   </div>
-
+  <!--<div class="slider-container">
+    <div class="mp-slider">
+      <ul class="items">
+        <li><img src="images/slide-1.jpg" alt=""></li>
+        <li><img src="images/slide-2.jpg" alt=""></li>
+        <li><img src="images/slide-3.jpg" alt=""></li>
+      </ul>
+    </div>
+  </div>-->
 </header>
 <!-- Content -->
-<section id="content" class="llamative">
-  <h2>Recomendaciones para que tu mascota sea lo más felíz posible</h2>
-  <h3>Esterilizarlo</h3>
-  <p>La esterilización de tu mascota es algo bueno, ya que evitas la gestación de cachorros que, quizás, podrían terminar cómo vagabundos y sin dueño</p>
-  <h3>Vacunarlo</h3>
-  <p>vacunar a tu mascota implica que ya no tendrás que lidiar con las consecuencias de diversas enfermedades, com la rabia, y su respectiva probabilidad de contagio, protegiendote incluso a ti mismo</p>
-  <h3>Sacarlo a pasear</h3>
-  <p>En el caso de los perros, aunque tome tiempo, hacerlo lo ayuda a gastar energía, y un perro cansado es un perro felíz
-  </p>
-  <h3><b>NO</b> darle de comer los siguientes alimentos:</h3>
-  <img src="images/alimentos-peligrosos-750x290.jpg">
+<section id="content">
+  <div class="container_24">
+    <div class="indent-bot-2">
+      <div class="clear"></div>
+      <div class="wrapper indent-bot-1">
+        
+        <article class="grid_24">
+          <br>            
+          <div class="wrapper2">
+            <img src="images/IMG_new/cat.jpg" width="300" class="img-indent-1">  
+            <h2>¿Por qué es importante cuidar a tu mascota?</h2>
+            <p>El cuidado de tu mascota es esencial para poder asegurar no solo su bienestar, sino darle una calidad de vida lo más alta que se pueda, ya que, una mascota no es solo un animal al que puedas desechar una vez que te aburres de tenerla, son seres vivos que sienten y necesitan cuidados, por lo tanto cuidar de tu mascota debe considerarse una obligación.</p>
+              <p>Al adquirir una mascota nueva, es impotante comenzar a cuidarla desde el inicio, y siempre hay que ser conciente que nuestras mascotas pueden requerir de muchos cuidados, es como si criaras a un miembro más de tu familia, para ello debes brindarle cuidados básicos, en este caso se podrían indicar como: alimentación, salud, espacio y emocional</p>
+                            
+            <!-- -->
+            </div>
+             <br> 
+            <h2>Cuidados básicos</h2>
+              <div class="wrapper2">
+              <h5>Salud</h5>
+              <img src="images/IMG_new/kitten.jpg" width="300" class="img-indent">
+              <p>El veterinario no solo es útil en el tratamiento de enfermedades, también cumple una función muy importante en su prevención. Y es que el veterinario es la persona que mejor conoce a tu mascota, por lo que te aconsejará mejor que nadie. </p>
+                  <p>Ahora bien: ¿cada cuánto tiempo debo llevar al veterinario a mi mascota? A no ser que surja cualquier imprevisto o el animal se encuentre enfermo, ten estos datos como referencia:</p>
+                  <h6>- Durante el primer medio año: con frecuencia</h6>
+                     <p>Hasta que el animal tiene entre 5 y 6 meses es necesario acudir con regularidad al veterinario. Las revisiones y vacunaciones correspondientes a este periodo son de vital importancia.</p>
+                  <h6>- Del primer medio año a los 6-7 años (senectud): una vez al año</h6>
+                     <p>Aunque en el caso de perros y gatos suele ser hasta los 6-7 años, en otros animales la edad de referencia puede ser otra. Ante cualquier duda, consulta siempre a tu veterinario. </p>
+                  <h6>- A partir de los 6-7 años: cada 6 meses</h6>
+                     <p>A partir de esta edad es más probable que tu mascota pueda contraer enfermedades propias de la edad, como artrosis o problemas cardíacos, por ejemplo. Por eso es recomendable que acudas con cierta regularidad a tu veterinario para que le haga los chequeos pertinentes.</p>
+                  <p>El tener sus vacunas al día también le permite disfrutar de una existencia saludable. Aunque la práctica de inyectarles refuerzos anuales ha dejado de ser la indicada, dependiendo de su estilo de vida – como por ejemplo, si tienes múltiples mascotas o trabajas con animales con alto riesgo de enfermedades contagiosas – reforzarlos con más frecuencia les puede salvar la vida.</p>
 
+                  <p>Entendemos que las visitas al veterinario puedes ser costosas, pero son parte de la responsabilidad que adquiriste al adoptarlo. No es solamente mimarlo y tomarle fotos, tienes que asegurarte de que se vea lindo por dentro y por fuera. No lo mires como un dolor de cabeza, el chequeo siempre sale más barato que salir corriendo de emergencia para recibir un diagnóstico nefasto o peor aun, perder a tu mascota. Todo a tiempo tiene solución.</p>
+              <br>
+              </div> 
+              
+              <div class="wrapper2">
+              <h5>Alimentación</h5>
+              <img src="images/IMG_new/rat.jpg" width="300" class="img-indent">
+              <p>La nutrición en las mascotas debe contar con el balance correcto de nutrientes acorde a su edad, actividad, raza, talla y estado de salud. Por La importancia de la nutrición en las mascotasfortuna, los alimentos balanceados suelen cumplir con todos esos requisitos indicados por normas establecidas de salud animal.</p>
+              <p>Actualmente existen en el mercado diversas marcas y opciones para todos los gustos caninos y felinos, acorde a los presupuestos de sus dueños y a sus necesidades.</p>
+              <p>Lo cierto es que para que nuestro compañero tenga la mejor nutrición debemos buscar alimentos que le aporten todos los requerimientos nutricionales sea concentrado o comida casera.</p>
+              <p>En la actualidad existen concentrados acorde a las necesidades de cada mascota, si es cachorro, si es adulto o si es senior, en los gatos si es bebé o adulto, de pelo corto, pelo largo, control bolas de pelo, si nuestro perro tiene piel sensible o padece de algún problema de salud existen productos especializados para cada patología, (Renal, hepática, gastrointestinal, hipo alergénica, light, etc.) que le aportan todos los nutrientes  necesarios.</p>
+              <p>Para los que no les gustan los concentrados y los quieren alimentar de manera natural, en la actualidad existen dietas caseras especiales a base de cereales, proteína animal, leguminosa, frutas y vegetales, recetas recomendadas para mascotas sanas y enfermas, pero debemos estar seguros de las preparaciones, existen algunos alimentos que pueden ser tóxicos y peligrosos y poner en riesgo su salud. </p>
+                <!-- Imagenes de los alimentos que no deben de comer perros ni gatos,etc... -->
+              
+              <p>Siempre que quiera saber cuál es la mejor dieta, mire las tablas nutricionales de los concentrados, pregúntele a su veterinario de confianza cual es la dieta indicada para su mascota, no tiene que comprar la más cara para obtener la mejor nutrición, en el mercado existen muchos alimentos nacionales de excelente calidad.</p>
+              <p>Si desea darle dietas caseras recuerde: No administrar sal, lavar muy bien las frutas y verduras, hervir y cocinar muy bien todos los alimentos en especial las carnes para evitar contagio de parásitos y bacterias. Y lo más importante tener muy claro que alimentos son peligrosos para no suministrárselos.</p>
+              <p>Una alimentación saludablemente, mejorara la calidad de vida de nuestras mascotas en todas las edades, previniendo el desarrollo de enfermedades como: Anemia, obesidad, diabetes, algunos tipos de cáncer, infecciones, etc.</p>
+              <p>Recuerde una alimentación saludable es aquella que aporta todos los nutrientes esenciales y la energía que cada animal necesita para mantenerse sano.</p>
+              <div class="grid_18">
+                  <img src="images/IMG_new/alimentos-peligrosos-750x290.jpg" style="width:101%;">
+              </div>
+                <div class="grid_3">
+                    <a href="http://omicrono.elespanol.com/2016/07/alimentos-peligrosos-para-los-gatos/" target="_blank"><img src="images/IMG_new/gatos.jpg"></a>
+                    <a href="https://www.expertoanimal.com/alimentos-prohibidos-para-conejos-21771.html" target="_blank"><img src="images/IMG_new/conejos.jpg"></a>
+                    <a href="http://www.vix.com/es/imj/hogar/6161/7-alimentos-nocivos-para-los-hurones" target="_blank"><img src="images/IMG_new/huron.jpg"></a>
+                    <a href="http://mascotas.facilisimo.com/blogs/roedores/alimentos-prohibidos-para-la-cobaya_1120927.html" target="_blank"><img src="images/IMG_new/cuyo.jpg"></a>
+                </div>
+              
+              <br>
+              </div>
+              
+              <div class="wrapper2">
+              <h5>Espacio</h5>
+              <img src="images/IMG_new/person.jpg" width="300" class="img-indent">
+              <p> Lejos de ser un juguete, las mascotas hoy en día son como un tercer hijo. Por eso es de recibo ofrecerles su propio espacio. En cualquier tienda podemos comprar una casa para una mascota o incluso hacerla nosotros mismos o simplemente no tenerles su casa, todo depende de la circunstancias en la que viva nuestra mascota. Pero esto no es suficiente. Necesitamos además un espacio donde ubicarla y una serie de acondicionamientos para que el espacio resulte cómodo, tanto para la mascota como para nosotros.</p>
+              <p>Hay una serie de factores que debes tener en cuenta a la hora de preparar un espacio para mascotas en casa:</p>
+                  <h6>El lugar donde va a ubicarse</h6>
+                  <p>Es importante que el area en la que nuestra mascota se instale sea una zona tranquila y alejada de ruidos, si haz tenido mascota antes, te habras dado cuenta que esta en muchas ocasiones elige la zona que más le parece comoda de la casa, eso sí, somos personas quienes dejamos a nuestras mascotas merodear por toda la casa y no nos molesta donde se acomode esta</p>
+                  <p>Tenerles sus propias pertenencias puede hacer que tu mascota se sienta más comoda dentro de la casa, una cama, un juguete, hasta una manta, tu mascota puede poseer sus propias pertenencias, y tu debes brindarselas para que se sienta lo mas comodo posible.</p>
+                  <h6>Darle un lugar para hacer sus necesidades</h6>
+                  <p>Uno de los factores de espacio más importantes, ya que es crucial que si no queremos que nuestra querida mascota haga sus necesidades donde no lo deseemos, seamos concientes de que tendremos que enseñarles, lo cual requiere paciencia y tiempo.</p>
+                  <p>Podemos brindarle a nuestra mascota un espacio exclusivo para que realice sus necesidades, esto depende mucho también del tipo de mascota que poseas, ejemplo: un gato requiere una caja de arena especial para realizar sus necesidades mientras un perro no, cuando definas el espacio donde realizara sus necesidades, tendras que enseñar a tu mascota a utilizar ese espacio de la manera que más te convenga y ser constante con la limpieza de esta area especial, recuerda, higiene en estas areas no solo es algo positivo para tu mascota, también te beneficias por el hecho de que evitas malos olores.</p>
+                  <h6>La comida para mascotas</h6>
+                  <p>Su lozalización siempre depende del tipo de mascota y el espacio que tenga para acceder a ella, si tienes una mascota que requiere estar en una jaula, entonces se constante con la limpieza de sus recipientes de agua y comida, si tu mascota es libre de andar dentro de la casa o fuera, busca un lugar comodo, tranquilo y de fácil acceso a tu mascota para que pueda acceder a sus recipientes, el cambio diario de agua es crucial, ya que el agua se estanca y puede volverse dañina para nuestra mascota además de la limpieza del plato de alimento, ya que en ocasiones restos de comida pueden hacer que este huela mal y junte bacterias.</p>
+              <br>
+              </div>
+              
+              <div class="wrapper2">
+              <h5>Emocional</h5>
+              <img src="images/IMG_new/happy_dogo.jpg" width="300" class="img-indent">
+              <p>Así como nosotros, nuestra mascota puede sufrir de manera emocional, pueden padecer estrés, depresión,etc... y tal como nosotros pueden mostrar síntomas, hay que tener en cuenta que brindarle amor,atención y cuidados a nuestra mascota es lo que hace que esta se sienta segura y féliz, siempre hay que estar alerta a cualquier cambio de conducta y tratar de buscar una solución a sus problemas, para ello en muchas ocasiones podemos acudir a nuestro veterinario de confianza para que nos de condejo sobre como tratar problemas emocionales de nuestra mascota</p>
+              <br>
+              </div>
+            <!--
+              <div class="wrapper2">
+                  <h2>Cuidados para mascotas especificas</h2>
+               <table border="1" align="center" style="width:100%;">
+                   <tr>
+                        <td><img src="http://elsignificadode.com/wp-content/uploads/2016/01/significado-del-color-violeta.jpg" width="475"></td>
+                        <td><img src="http://elsignificadode.com/wp-content/uploads/2016/01/significado-del-color-violeta.jpg" width="475"></td>
+                   </tr>
+               </table>
+              </div>
+             -->
+          
+        </article>
+      </div>
+      <div class="hr-border"></div>
+      <div class="a1">
+        <h2>Testimonios:</h2>
+        <div>
+            
+          <div class="grid_6 alpha">
+            <blockquote class="quote-1">
+              <div class="quote-1-inner"> <span class="str-1">Consentir a los animales también es una forma de maltrato
+              </span> </div>
+            </blockquote>
+            <div class="author alignright indents-1"> <em> Marco Carrillo </em> (Auxiliar de veterinario) </div>
+          </div>
+            
+          <div class="grid_6">
+            <blockquote class="quote-1">
+              <div class="quote-1-inner"> <strong></strong><br>
+                Poner aqui una cita o algo xD , mientras tanto lorem epsilum lapis philosoforum etc etc etc </div>
+            </blockquote>
+            <div class="author alignright indents-1"> <em> Entrevistado Kenia </em> (Ocupacion) </div>
+          </div>
+          <div class="grid_6">
+            <blockquote class="quote-1">
+              <div class="quote-1-inner"> <strong></strong><br>
+                Poner aqui una cita o algo xD , mientras tanto lorem epsilum lapis philosoforum etc etc etc </div>
+            </blockquote>
+            <div class="author alignright indents-1"> <em> Entrevistado Eliot </em> (ocupación) </div>
+          </div>
+          <div class="grid_6 omega">
+            <blockquote class="quote-1">
+              <div class="quote-1-inner"> <strong></strong><br>
+                Poner aqui una cita o algo xD , mientras tanto lorem epsilum lapis philosoforum etc etc etc </div>
+            </blockquote>
+            <div class="author alignright indents-1"> <em> entrevistado richi </em> (ps ocupacion) </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
 <!-- Footer -->
 <footer>
-
+  <div class="copyright"> &copy; 2012 <strong class="footer-logo">Pet clinic</strong>
+    <div>Website Template by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></div>
+  </div>
+  <ul class="social-list">
+    <li><a href="#"><img src="images/social-link-1.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/social-link-2.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/social-link-3.jpg" alt=""></a></li>
+    <li><a href="#"><img src="images/social-link-4.jpg" alt=""></a></li>
+  </ul>
 </footer>
 </body>
 </html>
